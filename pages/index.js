@@ -10,9 +10,9 @@ const IndexPage = () => {
 
 	return (
 		<>
-			<h1>
-				<h3>Setting up Apollo GraphQL in Next.js with Server Side Rendering</h3>
-			</h1>
+			<ul>
+				<li>Setting up Apollo GraphQL in Next.js with Server Side Rendering</li>
+			</ul>
 			<div>
 				{data.characters.results.map((data) => (
 					<ul key={data.id}>
